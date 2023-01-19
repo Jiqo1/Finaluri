@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdc"
+        android:text="გადარიცხვები"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdc1"
+        android:layout_below="@id/gdc"
+        android:text="50000 ლარი დაგერიცხათ გოგა ჯიქიასგან"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdc2"
+        android:layout_below="@id/gdc1"
+        android:text="20000 ლარი გადაურიცხეთ ანი ჯიქია"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gdc2"
+        android:text="320000 შესყიდვა BMW"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
